@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/activit_formulario_nome_evento"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Nome do Evento"
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/activit_formulario_data_evento"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Data do Evento"
+        android:inputType="date"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/activit_formulario_hora_evento"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Hora do Evento"
+        android:inputType="time"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/activit_formulario_tema_evento"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Tema do Evento"
+        android:inputType="textAutoCorrect"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/activit_formulario_botao_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salvar"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>
